@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="weather-app">
+        <h1>Application Météo</h1>
+        <input type="text" id="city" placeholder="Entrez une ville">
+        <button id="getWeather">Obtenir la météo</button>
+        <div id="weather-result">
+            <!-- Les données météo actuelles seront affichées ici -->
+        </div>
+        <div id="forecast-result">
+            <!-- Les prévisions météo pour demain seront affichées ici -->
+        </div>
+        <canvas id="weatherChart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
